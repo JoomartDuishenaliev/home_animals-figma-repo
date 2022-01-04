@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container{
+	border: 1px solid green;
+	width: 100%;
+	height: 2832px;
+}
+.container .frame1{
+	width: 100%;
+	height: 600px;
+	background-image: url('img/top-background.png');
+	background-size: 1333px 601px;
+}
+nav{
+	width: 1035px;
+	height: 72px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+nav .nav-text{
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+}
+.frame1 .sub-frame1{
+	width: 424px;
+    height: 200px;
+    position: absolute;
+    left: 181px;
+    top: 222px;
+}
+.frame1 .sub-image1{
+	width: 430px;
+	height: 458px;
+	position: absolute;
+	left: 762px;
+	top: 116px;
+}
+.container .frame2{
+	width: 85%;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.frame2 .pic-row2{
+	display: flex;
+	justify-content: space-between;
+}
+.frame2 .pic-row2 .pic-frame2{
+	border-radius: 50px;
+	width: 270px;
+	height: 430px;
+	padding-bottom: 15px;
+	box-shadow: 0px 1px 11px 1px #a1b1b1;
+}
+.pic-row2 .pic-frame2 img{
+	padding: 10px 50px;
+}
+.pic-row2 .pic-frame2 p{
+	text-align: center;
+}
+.container .frame3, .frame4{
+	width: 85%;
+	height: 390px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.frame3 .sub-frame3{
+	width: 90%;
+	height: 85%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.frame3 .sub-frame3 .pic-row3, .frame-text3{
+	width: 48%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.frame3 .sub-frame3 .pic-row3 img{
+	align-self: center;
+	z-index: 1;
+}
+.frame3 .sub-frame3 .pic-row3 .position-img1{
+	position: relative;
+	left: -175px;
+	top: -65px;
+	border-radius: 30px;
+	z-index: 2;
+}
+.frame3 .sub-frame3 .pic-row3 .position-img2{
+	position: relative;
+	left: 122px;
+	top: -222px;
+	border-radius: 30px;
+	z-index: 2;
+}
+span, p, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+	color: #05435E;
+}
+h3{
+	color: #008FCC;
+}
+button {
+	width: 200px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	border-color: #FF6B6B;
+	background-color: #FF6B6B;
+}
+.small-button{
+	width: 160px;
+	height: 43px;
+	margin: 10px 50px;
+}
+.blue-button{
+	border-color: #008FCC;
+	background-color: #008FCC;
+}
+.frame4 .low-button{
+	width: 69px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+}
+.button-text{
+	color: #FFFFFF;
+	padding-right: 8px;
+	text-transform: uppercase;
+}
