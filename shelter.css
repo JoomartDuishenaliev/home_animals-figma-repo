@@ -13,6 +13,7 @@ body .body-frame{
 	width: 100%;
 	height: 455px;
 	display: flex;
+	margin-top: 47px;
 }
 .body-frame .footer-frame{
 	width: 100%;
@@ -31,7 +32,7 @@ body .body-frame{
 }
 .body-frame .nav-frame{
 	background-image: url('img/top-background.png');
-	background-size: 1333px 601px;
+	background-size: cover;
 }
 .nav-frame .nav-pic{
 	width: 1100px;
@@ -173,13 +174,6 @@ body .body-frame{
 	font-size: 18px;
 	margin: 0 auto;
 }
-.sub-footer>img{
-	width: 16px;
-	height: 16px;
-	position: relative;
-	left: 658px;
-	bottom: 181px;
-}
 .footer-image>img{
 	display: flex;
 	justify-self: center;
@@ -206,6 +200,9 @@ body .body-frame{
 span, p, h2, h3, button{
 	font-family: 'Roboto', sans-serif;
 	color: #05435E;
+}
+.big-button, .small-button, .blue-button{
+	border: none;
 }
 .nav-text>.big-button{
 	width: 190px;
@@ -234,6 +231,6 @@ span, p, h2, h3, button{
 	color: #FF6B6B;
 }
 .margin-left, .blue-text{
-	margin-left: 5px;
+	margin-left: 8px;
 	color: #008FCC;
 }
