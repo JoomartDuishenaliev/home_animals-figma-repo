@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	margin: 0px;
+}
 body .body-frame{
 	width: 100%;
 	height: 2637px;
